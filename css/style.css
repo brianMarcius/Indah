@@ -1,0 +1,112 @@
+#content{
+    height: 80vh;
+}
+
+#caption-header{
+  padding-top: 40%;
+}
+
+#img-background{
+  height: 630px;
+  background: url('../img/indah.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right; 
+}
+
+i.fa,i.fab{
+    font-size:2.5rem;
+}
+
+a i.fa:hover,i.fab:hover{
+    color:#ececec;
+}
+
+#img-elementary{
+    height: 630px;
+    background: url('../img/elementary_school.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left; 
+    filter: blur(2px);
+  -webkit-filter: blur(2x);
+  }
+
+.nav-item .nav-link:hover{
+    background-color: #2f3c48;
+    color: #ececec;
+    border-radius: 1.35rem;
+
+    /* border-bottom: 5px solid #2f3c48; */
+}
+ 
+.nav-link.active{
+    border: 2px solid #2f3c48;
+    border-radius:1.35rem;
+    
+}
+
+
+  .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	top:32px;
+    left:32px;
+    /* z-index: 1; */
+	/* background-color:#0C9; */
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.img-profile{
+    width:300px;
+    box-shadow: -20px 20px #2f3c48;
+}
+
+.footer-copyright{
+    width: 102%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
